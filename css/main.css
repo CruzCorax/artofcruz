@@ -201,7 +201,7 @@ textarea {
 :root {
   --rot: #cd1619;
   --blau: #004554;
-  --hellblau: #89ffe9;
+  --hellblau: #00746a;
   --sieben: .7rem;
   --lineh: 170%;
 }
@@ -251,7 +251,7 @@ header #logo a p {
   margin-left: 100px;
   padding-right: 50%;
   font-size: 2rem;
-  color: var(--blau);
+  color: var(--hellblau);
   position: absolute;
 }
 
@@ -287,7 +287,7 @@ header #metanavi-head ul li a,
 footer #metanavi-footer #flinks li a {
   display: block;
   text-decoration: none;
-  color: var(--rot);
+  color: var(--hellblau);
   padding: 0 10px;
 }
 
@@ -296,7 +296,7 @@ header #metanavi-head ul li a:hover,
 footer #metanavi-footer #flinks li a:focus,
 footer #metanavi-footer #flinks li a:hover{
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--rot);
+  border-bottom: 1px solid var(--hellblau);
 }
 
 header #metanavi-head ul li.lang {
@@ -308,12 +308,12 @@ header #metanavi-head ul li.lang a:first-child::after {
 }
 header #metanavi-head ul li.lang span.separator {
   display: table-cell;
-  color: var(--blau);
+  color: var(--hellblau);
 }
 
 header #metanavi-head ul li.search {
   font-family: 'Raleway-medium', sans-serif;
-  color: var(--rot);
+  color: var(--hellblau);
 }
 
 
@@ -349,13 +349,13 @@ header #mainnav ul li {
 header #mainnav ul li a {
   display: block;
   text-decoration: none;
-  color: var(--rot);
+  color: var(--hellblau);
   padding: 0 10px;
 }
 
 header #mainnav ul li a:hover {
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--rot);
+  border-bottom: 2px solid var(--hellblau);
 }
 
 header #mainnav ul li.lang {
@@ -369,13 +369,13 @@ header #mainnav ul li.lang a:first-child::after {
 
 header #mainnav ul li.lang span.separator {
   display: table-cell;
-  color: var(--blau);
+  color: var(--hellblau);
 }
 
 header #mainnav ul li.search {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  color: var(--rot);
+  color: var(--hellblau);
 }
 
 
@@ -419,7 +419,7 @@ header #mainnav ul li.search {
 
 #slider-wrapper #buttonL a:hover, #slider-wrapper #buttonR a:hover,
 #slider-wrapper #buttonL a:focus, #slider-wrapper #buttonR a:focus{
-  color: var(--blau);
+  color: var(--hellblau);
 }
 
 .arrows {
@@ -541,7 +541,7 @@ header #mainnav ul li.search {
 }
 
 #main #breadcrumb a {
-  color: var(--blau);
+  color: var(--hellblau);
   font-size: 0.8rem;
   font-family: 'Raleway-light', sans-serif;
   padding: 0 0.8rem;
@@ -549,7 +549,7 @@ header #mainnav ul li.search {
 
 #main #breadcrumb a:hover {
   text-decoration: underline;
-  color: var(--rot);
+  color: var(--hellblau);
 }
 
 #main #breadcrumb a[href]:after {
@@ -590,6 +590,7 @@ header #mainnav ul li.search {
   column-gap: 2rem;
 
   text-transform: none;
+  color: var(--hellblau);
   line-height: var(--lineh);
 }
 
@@ -605,11 +606,11 @@ header #mainnav ul li.search {
 }
 
 #main .intro h1 {
-  color: var(--blau);
+  color: var(--hellblau);
   padding-left: 0;
   padding-top: 1rem;
   margin-bottom: 1rem;
-  border-top: 1px solid var(--blau);
+  border-top: 1px solid var(--hellblau);
   border-bottom-width: 1px;
   border-bottom-style: solid;
 
@@ -788,8 +789,8 @@ header #mainnav ul li.search {
   right: 0;
   text-align: left;
   margin: 0 5px 0 5px;
-  color: var(--rot);
-  border-bottom: 1px solid var(--rot);
+  color: var(--hellblau);
+  border-bottom: 1px solid var(--hellblau);
 }
 
 #main article img {
@@ -882,10 +883,10 @@ header #mainnav ul li.search {
 
 #main .all-article article ul li a {
   text-decoration: none;
-  color: var(--rot);
+  color: var(--blau);
   padding: 0 10px;
   margin-left: var(--sieben);
-  border: 1px solid var(--rot);
+  border: 1px solid var(--blau);
 }
 
 #main .expo-collection {
@@ -953,7 +954,7 @@ header #mainnav ul li.search {
 
 footer {
   height: auto;
-  border-top: 1px solid var(--rot);
+  border-top: 1px solid var(--hellblau);
   padding: 1.2rem 0;
   margin-bottom: 1.4rem;
 }
@@ -1011,13 +1012,13 @@ footer #metanavi-footer #social a {
   padding: .4rem;
   text-decoration: none;
   margin: 0 auto;
-  color: var(--rot);
+  color: var(--hellblau);
 }
 
 footer #metanavi-footer #social a:focus,
 footer #metanavi-footer #social a:hover {
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--rot);
+  border-bottom: 1px solid var(--hellblau);
 }
 
 
@@ -1029,24 +1030,25 @@ footer #metanavi-footer #social a:hover {
   font-size: 100%;
 }
 
-html:after {
+/* html:after {
   content: "";
-  background: url('../img/bg2.jpg');
+  background: url('../img/bg5.jpg');
   position: fixed;
-  opacity: 0.6;
+  opacity: 1;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: -1;
-}
+} */
 
 body {
   width: 80%;
+  height: 100%;
   margin: 0 auto;
   max-width: 1280px;
   display: block;
-  background: #fff;
+  background: #282828;
 }
 
 a {
@@ -1083,7 +1085,7 @@ h2 {
 
 h3 {
   font-family: 'Raleway-light', sans-serif;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.4em;
@@ -1123,12 +1125,12 @@ p {
 .btn-top {
   display: inline;
   position: fixed;
-  background: var(--rot);
+  background: var(--blau);
   color: #fff;
 
   width: 35px;
   height: 35px;
-  line-height: 1.9rem;
+  line-height: 2rem;
   text-align: center;
   border-radius: 100%;
 
@@ -1140,8 +1142,8 @@ p {
 /* Pfeil nach oben */
 
 .arrow-up:before {
-  content:'\25b2';
-  opacity: 0.5;
+  content:'\2b99';
+  opacity: 0.8;
 }
 
 /* ==========================================================================
