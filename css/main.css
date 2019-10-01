@@ -202,6 +202,7 @@ textarea {
   --rot: #cd1619;
   --blau: #004554;
   --hellblau: #00746a;
+  --cyan: #0ff;
   --sieben: .7rem;
   --lineh: 170%;
 }
@@ -296,7 +297,7 @@ header #metanavi-head ul li a:hover,
 footer #metanavi-footer #flinks li a:focus,
 footer #metanavi-footer #flinks li a:hover{
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--hellblau);
+  border-bottom: 1px solid var(--cyan);
 }
 
 header #metanavi-head ul li.lang {
@@ -355,7 +356,7 @@ header #mainnav ul li a {
 
 header #mainnav ul li a:hover {
   padding-bottom: 10px;
-  border-bottom: 2px solid var(--hellblau);
+  border-bottom: 2px solid var(--cyan);
 }
 
 header #mainnav ul li.lang {
@@ -419,7 +420,7 @@ header #mainnav ul li.search {
 
 #slider-wrapper #buttonL a:hover, #slider-wrapper #buttonR a:hover,
 #slider-wrapper #buttonL a:focus, #slider-wrapper #buttonR a:focus{
-  color: var(--hellblau);
+  color: var(--cyan);
 }
 
 .arrows {
@@ -549,7 +550,7 @@ header #mainnav ul li.search {
 
 #main #breadcrumb a:hover {
   text-decoration: underline;
-  color: var(--hellblau);
+  color: var(--cyan);
 }
 
 #main #breadcrumb a[href]:after {
@@ -825,7 +826,7 @@ header #mainnav ul li.search {
 
 #main .all-article article p a:hover,
 #main .intro p a:hover{
-  color: var(--blau);
+  color: var(--cyan);
 }
 
 #main .all-article article h3 {
@@ -1018,7 +1019,7 @@ footer #metanavi-footer #social a {
 footer #metanavi-footer #social a:focus,
 footer #metanavi-footer #social a:hover {
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--hellblau);
+  border-bottom: 1px solid var(--cyan);
 }
 
 
