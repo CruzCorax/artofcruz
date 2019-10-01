@@ -200,9 +200,10 @@ textarea {
 /* Variablen */
 :root {
   --rot: #cd1619;
-  --blau: #004554;
-  --hellblau: #00746a;
-  --cyan: #0ff;
+  --orange: #B33a00;
+  --blau: #00403a;
+  --hellblau: #00a79d;
+  --cyan: #00ffea;
   --sieben: .7rem;
   --lineh: 170%;
 }
@@ -350,7 +351,7 @@ header #mainnav ul li {
 header #mainnav ul li a {
   display: block;
   text-decoration: none;
-  color: var(--hellblau);
+  color: var(--orange);
   padding: 0 10px;
 }
 
@@ -494,7 +495,7 @@ header #mainnav ul li.search {
   font-family: 'Raleway-light', sans-serif;
   font-size: 1.2em;
   color: rgba(0, 0, 0, 0.8);
-  border: 1px solid var(--rot);
+  border: 1px solid var(--orange);
   border-radius: 5px;
   width: 25%;
 }
@@ -777,7 +778,7 @@ header #mainnav ul li.search {
 
 #main .all-article article p a,
 #main .intro p a{
-  color: var(--rot);
+  color: var(--orange);
 }
 
 #main .all-article article p a:hover,
@@ -791,8 +792,8 @@ header #mainnav ul li.search {
   margin: 0 .2rem;
   left: 0;
   text-align: left;
-  color: var(--rot);
-  border-bottom: 1px solid var(--rot);
+  color: var(--orange);
+  border-bottom: 1px solid var(--orange);
 }
 
 #main .all-article article .visi {
@@ -868,12 +869,12 @@ header #mainnav ul li.search {
 #main .expo-collection article {
   margin: .2rem;
   width: 18rem;
-  border: 1px solid var(--rot);
+  border: 1px solid var(--orange);
   flex-grow: 1;
 }
 
 #main .expo-collection article h4 {
-  border-bottom: 1px solid var(--rot);
+  border-bottom: 1px solid var(--orange);
   position: absolute;
   padding: 15px 15px 10px 15px;
   right: 0;
@@ -919,7 +920,7 @@ footer {
 footer .center-content {
   font-family: 'Raleway-medium', sans-serif;
   text-align: center;
-  color: var(--rot);
+  color: var(--orange);
   font-size: .9rem;
 }
 
@@ -969,13 +970,13 @@ footer #metanavi-footer #social a {
   padding: .4rem;
   text-decoration: none;
   margin: 0 auto;
-  color: var(--hellblau);
+  color: var(--orange);
 }
 
 footer #metanavi-footer #social a:focus,
 footer #metanavi-footer #social a:hover {
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--cyan);
+  border-bottom: 1px solid var(--hellblau);
 }
 
 
@@ -987,9 +988,9 @@ footer #metanavi-footer #social a:hover {
   font-size: 100%;
 }
 
-/* html:after {
+html:after {
   content: "";
-  background: url('../img/bg5.jpg');
+  background: url('../img/bg6.jpg');
   position: fixed;
   opacity: 1;
   top: 0;
@@ -997,7 +998,7 @@ footer #metanavi-footer #social a:hover {
   bottom: 0;
   right: 0;
   z-index: -1;
-} */
+}
 
 body {
   width: 80%;
@@ -1005,7 +1006,6 @@ body {
   margin: 0 auto;
   max-width: 1280px;
   display: block;
-  background: #282828;
 }
 
 a {
