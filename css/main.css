@@ -374,87 +374,6 @@ header #mainnav ul li.search {
 }
 
 
-
-/* Slider */
-
-#slider-wrapper {
-  margin: 0;
-  padding: 0;
-  height: 320px;
-  width: auto;
-
-  align-items: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-#slider-wrapper #buttonL, #slider-wrapper #buttonR {
-  cursor: pointer;
-  padding: 0 15px;
-  font-size: 2rem;
-}
-
-#slider-wrapper #buttonL a, #slider-wrapper #buttonR a {
-  color: #ffffff;
-}
-
-#slider-wrapper #buttonL a:hover, #slider-wrapper #buttonR a:hover,
-#slider-wrapper #buttonL a:focus, #slider-wrapper #buttonR a:focus{
-  color: var(--cyan);
-}
-
-.arrows {
-  display: block;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-transform: none;
-  text-align: center;
-  width: 2rem;
-  height: 2rem;
-  line-height: 1.4rem;
-
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  background-color: var(--blau);
-
-  -webkit-transition: background-color 500ms ease-out;
-  -moz-transition: background-color 500ms ease-out;
-  -o-transition: background-color 500ms ease-out;
-  transition: background-color 500ms ease-out;
-}
-
-.arrows:hover {
-  background-color: #ffffff;
-}
-
-#slider-wrapper #buttonL a .arrows:before {
-  content: "\25c4";
-  font-size: 1.2rem;
-  opacity: 0.5;
-}
-
-#slider-wrapper #buttonR a .arrows:before {
-  content: "\25ba";
-  font-size: 1.2rem;
-  opacity: 0.5;
-}
-
 .clearfix {
   content: ".";
   height: 0;
@@ -466,7 +385,7 @@ header #mainnav ul li.search {
 /* Hauptteil */
 
 #main{
-  margin: 2rem 0;
+  margin: 0 auto;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -483,7 +402,7 @@ header #mainnav ul li.search {
 
 #main #breadcrumb {
   padding: 1rem;
-  margin: -1rem 0 1rem 1rem;
+  margin: -1rem 0 0 0;
 }
 
 #main #breadcrumb a {
@@ -519,7 +438,7 @@ header #mainnav ul li.search {
 }
 
 #main .intro {
-  padding: 2rem 4rem;
+  padding: 1rem;
 }
 
 #main .intro h2 {
