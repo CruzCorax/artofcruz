@@ -150,53 +150,6 @@ textarea {
   margin-bottom: 1em;
 }
 
-/* -- Raleway -- */
-
-@font-face {
-  font-family: 'raleway-bold';
-  src: url("../fonts/raleway/bold/raleway-bold.eot");
-  src: url("../fonts/raleway/bold/raleway-bold.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/raleway/bold/raleway-bold.woff") format("woff"),
-  url("../fonts/raleway/bold/raleway-bold.ttf") format("truetype"),
-  url("../fonts/raleway/bold/raleway-bold.svg#raleway-bold") format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'raleway-italic';
-  src: url("../fonts/raleway/italic/raleway-italic.eot");
-  src: url("../fonts/raleway/italic/raleway-italic.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/raleway/italic/raleway-italic.woff") format("woff"),
-  url("../fonts/raleway/italic/raleway-italic.ttf") format("truetype"),
-  url("../fonts/raleway/italic/raleway-italic.svg#raleway-italic") format("svg");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'raleway-light';
-  src: url("../fonts/raleway/light/raleway-light.eot");
-  src: url("../fonts/raleway/light/raleway-light.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/raleway/light/raleway-light.woff") format("woff"),
-  url("../fonts/raleway/light/raleway-light.ttf") format("truetype"),
-  url("../fonts/raleway/light/raleway-light.svg#raleway-light") format("svg");
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'raleway-medium';
-  src: url("../fonts/raleway/medium/raleway-medium.eot");
-  src: url("../fonts/raleway/medium/raleway-medium.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/raleway/medium/raleway-medium.woff") format("woff"),
-  url("../fonts/raleway/medium/raleway-medium.ttf") format("truetype"),
-  url("../fonts/raleway/medium/raleway-medium.svg#raleway-medium") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* Variablen */
 :root {
   --rot: #cd1619;
@@ -318,7 +271,7 @@ header #metanavi-head ul li.search {
 header #mainnav {
   font-weight: 700;
   position: absolute;
-  right: 0;
+  text-align: center;
   margin-top: 12rem;
 }
 
@@ -368,7 +321,7 @@ header #mainnav ul li.lang span.separator {
 }
 
 header #mainnav ul li.search {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: var(--hellblau);
 }
@@ -408,7 +361,7 @@ header #mainnav ul li.search {
 #main #breadcrumb a {
   color: var(--hellblau);
   font-size: 0.8rem;
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   padding: 0 0.8rem;
 }
 
@@ -430,7 +383,7 @@ header #mainnav ul li.search {
 }
 
 #main #notFound {
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   color: rgba(200, 0, 0, 0.6);
   font-size: 1.4rem;
   text-align: center;
@@ -453,7 +406,7 @@ header #mainnav ul li.search {
 }
 
 #main .intro > #museum {
-  font-family: 'raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   text-align: center;
   text-transform: none;
   line-height: var(--lineh);
@@ -472,14 +425,14 @@ header #mainnav ul li.search {
   border-bottom-width: 1px;
   border-bottom-style: solid;
 
-  font-family: 'raleway-bold', sans-serif;
+  font-family: 'Montserrat-bold', sans-serif;
   text-align: center;
 }
 
 #main #impressum {
   padding-left: 4rem;
   padding-right: 4rem;
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   font-style: normal;
 }
 
@@ -566,7 +519,7 @@ header #mainnav ul li.search {
 }
 
 #main .textarea {
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.8);
   border: 1px solid grey;
@@ -576,7 +529,7 @@ header #mainnav ul li.search {
 }
 
 #main input, #main #anfragen {
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   font-size: 0.9em;
   color: rgba(0, 0, 0, 0.8);
   border: 1px solid grey;
@@ -632,8 +585,8 @@ header #mainnav ul li.search {
 #main article {
   height: auto;
   position: relative;
-  border: 1px solid #fff;
-  background: #fff;
+  border: 1px solid #ccc;
+  background: #eee;
   cursor: pointer;
   padding: .5rem;
 }
@@ -657,7 +610,7 @@ header #mainnav ul li.search {
   height: 8rem;
 }
 
-#main article img.cover {
+#main article img.preview {
   object-fit: cover;
   object-position: 0 20%;
 }
@@ -724,7 +677,7 @@ header #mainnav ul li.search {
 #main .all-article article ul {
   list-style-type: none;
   margin-right: 10px;
-  font-family: Raleway-medium, sans-serif;
+  font-family: Montserrat-medium, sans-serif;
   width: 100%;
   height: 2rem;
   line-height: var(--lineh);
@@ -818,7 +771,7 @@ footer {
 }
 
 footer .center-content {
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   text-align: center;
   color: var(--orange);
   font-size: .9rem;
@@ -864,7 +817,7 @@ footer #metanavi-footer #social {
 }
 
 footer #metanavi-footer #social a {
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   font-size: var(--sieben);
   text-transform: uppercase;
   padding: .4rem;
@@ -909,7 +862,7 @@ body {
 }
 
 a {
-  font-family: 'raleway-medium', sans-serif;
+  font-family: 'Montserrat-medium', sans-serif;
   font-weight: 100;
   text-decoration: none;
 }
@@ -923,7 +876,7 @@ em, i, figcaption {
 }
 
 h1 {
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Acme', serif;
   color: #0d2a21;
   font-weight: 100;
   font-size: 2.7rem;
@@ -932,7 +885,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   color: var(--blau);
   font-size: 1.9rem;
   line-height: 2em;
@@ -941,7 +894,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   color: #fff;
   font-size: 1.4rem;
   font-weight: 100;
@@ -952,7 +905,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Raleway-bold', sans-serif;
+  font-family: 'Montserrat-bold', sans-serif;
   font-size: 1rem;
   font-weight: 100;
   line-height: 1em;
@@ -961,7 +914,7 @@ h4 {
 }
 
 p {
-  font-family: 'Raleway-light', sans-serif;
+  font-family: 'Montserrat-light', sans-serif;
   color: rgba(0, 0, 0, 0.7);
   font-size: 1rem;
   font-weight: normal;
