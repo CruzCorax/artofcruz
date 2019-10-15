@@ -308,7 +308,7 @@ header #metanavi-head ul li.lang span.separator {
 }
 
 header #metanavi-head ul li.search {
-  font-family: 'Raleway-medium', sans-serif;
+  font-family: 'Acme', sans-serif;
   color: var(--hellblau);
 }
 
@@ -319,7 +319,7 @@ header #mainnav {
   font-weight: 700;
   position: absolute;
   right: 0;
-  margin-top: 7.5rem;
+  margin-top: 12rem;
 }
 
 header #mainnav ul {
